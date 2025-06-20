@@ -9,7 +9,7 @@ class User(db.Model):
   name = db.Colunm(db.String(80), unique=True nullable=False)
   password = db.Colunm(db.String(80), nullable=False)
 
-  refeicoes = db.relationship('Meal', backref='user', lazy=True)
+  meals = db.relationship('Meal', backref='user', lazy=True)
 
 class Meal(db.model):
   __dailyDiet__ = 'meals'
