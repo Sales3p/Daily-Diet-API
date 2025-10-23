@@ -17,3 +17,14 @@ Criada para registrar e gerenciar refeições diárias de usuários, permitindo 
 - 📋 Listar todas as refeições de um usuário
 - 🔎 Visualizar uma única refeição
 - 💾 Salvar todas as informações em banco de dados
+
+
+## 🛠 Tecnologias utilizadas
+
+- Python  
+- Flask  
+- Flask‑Login  
+- SQLAlchemy  
+- MySQL (via pymysql)  
+- bcrypt (para hash de senha)  
+- (Outras libs conforme `requirements.txt`)
